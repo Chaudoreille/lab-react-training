@@ -1,11 +1,13 @@
 import './App.css';
 import IdCard from './components/IdCard/IdCard';
 import Greetings from './components/Greetings/Greetings';
+import Random from './components/Random/Random';
 
 function App() {
   return (
     <div className="App">
       <Greetings lang="fr">Arthur</Greetings>
+      <Random min={200} />
       <IdCard
         lastName="Doe"
         firstName="John"
