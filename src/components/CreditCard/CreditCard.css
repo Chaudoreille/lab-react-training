@@ -1,0 +1,50 @@
+.CreditCard {
+  box-sizing: border-box;
+  margin: .2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 400px;
+  height: 200px;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+.CreditCard .logo-wrapper {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.CreditCard .logo-wrapper img {
+  height: 100%;
+  width: auto;
+}
+
+.CreditCard .card-number {
+  font-size: 2em;
+  margin: 1rem 0 0 0;
+  width: 100%;
+  text-align: center;
+  letter-spacing: .2rem;
+}
+
+.CreditCard .card-details {
+  margin: 1rem 0 0 0;
+  text-align: left;
+}
+
+.CreditCard .card-details * {
+  margin: 0;
+}
+
+.CreditCard .card-details .bank-name {
+  margin-left: 2rem;
+}
+
+.CreditCard .owner {
+  margin: 0;
+}
